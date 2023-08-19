@@ -1,0 +1,132 @@
+.main_faq{
+    background-color: #130732 !important;
+    padding: 40px 20px !important;
+}
+
+.main_clr_faq{
+    background-color: #130732;
+    padding: 40px 20px !important;
+}
+
+.main_faq_hedding{
+    color: #FFF;
+text-align: center;
+/* H2 */
+font-family: Murecho;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 116%; /* 55.68px */
+letter-spacing: 0.96px;
+font-family: 'Murecho', sans-serif;
+
+}
+.accordion-body{
+    border-radius: 0px 0px 5px 5px !important;
+}
+
+
+
+
+.item_bor{
+    background: transparent;
+    /* padding: 0.5 rem 1rem; */
+    background-image: linear-gradient(90deg, white, white),
+      linear-gradient(90deg, hsl(289, 65%, 64%), hsl(226, 78%, 67%));
+    background-clip: padding-box, border-box;
+    background-origin: border-box;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+
+.accordion-item .accordion-button {
+background-color: #21163E;
+
+
+}
+.accordion-body{
+    background-color: #21163F;
+}
+
+.ab{
+    color: #FFF !important;
+    color: #FFF;
+    /* Tittle */
+    font-family: Murecho;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.abc{
+color: #FFF;
+font-family: Murecho;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+letter-spacing: 0.14px;
+}
+.accordion-button:not(.collapsed){
+    box-shadow: none !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+
+
+
+/* .accordion-button::after {
+    flex-shrink: 0;
+    width: var(--bs-accordion-btn-icon-width);
+    height: var(--bs-accordion-btn-icon-width);
+    margin-left: auto;
+    content: "";
+    background-image: url(../Assets/angle.svg) !important;
+    background-repeat: no-repeat;
+    background-size: var(--bs-accordion-btn-icon-width);
+    transition: var(--bs-accordion-btn-icon-transition);
+} */
+
+.faq_heading{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+.acc_text{
+    text-align: left ;
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+letter-spacing: 0.14px;
+font-family: 'Murecho', sans-serif;
+
+
+}
+
+.faq_bg{
+    
+    background-color: #130732;
+    background-image: url(../Assets/how_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    height: 60vh;
+    background-size: cover;
+}
+
+
+.faq_bgg{
+    background-image: url(../Assets/faq_bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+}
