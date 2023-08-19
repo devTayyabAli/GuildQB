@@ -1,0 +1,118 @@
+.mdoal_ref_aa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.modal-content {
+  border-radius: 12px !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(2px) !important;
+  background-image: linear-gradient(90deg, #130737, #130737),
+    linear-gradient(119deg, #8217f4 19.01%, #00d1ff 100%) !important;
+  background-clip: padding-box, border-box !important;
+  background-origin: border-box !important;
+  border: 1px solid transparent !important;
+}
+
+ .modal-header {
+  border-bottom: none !important;
+}
+
+.modal_ref {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116%; /* 39.44px */
+  letter-spacing: 0.68px;
+  color: white !important;
+  font-family: "Murecho", sans-serif;
+}
+
+.modal_input_here {
+  margin-top: 20px;
+  margin-bottom: 24px;
+}
+
+.about_modal_re {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  font-family: "Murecho", sans-serif;
+  color: white;
+  letter-spacing: 0.16px;
+}
+
+.refferal_modal_btn {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.32px;
+  text-transform: uppercase;
+  color: var(--black, #0d1424);
+  text-align: center;
+  border-radius: 37px;
+  background: var(
+    --blue-gradinet,
+    linear-gradient(129deg, #20afff 0%, #a8e0ff 100%)
+  );
+  outline: none;
+  border: none;
+  height: 60px;
+  width: 314px;
+}
+
+.close_btn {
+  font-size: 24px;
+  color: white !important;
+  position: absolute;
+  right: 0px !important;
+  top: -2rem;
+}
+
+.close_mod {
+  border-radius: 37px !important;
+  background: var(--dark-bg, #130732) !important;
+  border: 1px solid white;
+  color: white;
+}
+
+
+
+
+
+                                   /* media query for mobiles is  here */
+
+@media only screen and (max-width: 600px) {
+  .refferal_modal_btn {
+    width: 290px !important;
+  }
+
+  .mdoal_ref_aa {
+    flex-direction: column !important ;
+  }
+}
+
+
+                                             /* it ends here  */
+
+
+
+
+                                            /* media query for tabs is here  */
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .mdoal_ref_aa {
+    flex-direction: column;
+  }
+
+  .rews {
+    margin-top: 1rem !important;
+  }
+}
+
+
+
+                                                        /* it ends here */

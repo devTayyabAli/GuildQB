@@ -1,0 +1,365 @@
+.alredy_ref_main {
+  padding: 0 10px;
+  background-color: #130732;
+}
+
+.box_ref h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 116%; /* 55.68px */
+  letter-spacing: 0.96px;
+  text-align: center;
+  /* font-family: "Murecho", sans-serif; */
+  z-index: 9999;
+  color: white !important;
+}
+
+.box_ref {
+  border-radius: 39px;
+  background: var(--dark-bg, #130732);
+  border: 2px solid #1299fe;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.lin {
+  position: absolute;
+  left: 0px;
+  top: 1px;
+}
+.lie {
+  position: absolute;
+  left: 155px;
+  top: 0px;
+  width: 87%;
+}
+
+.lia {
+  position: absolute;
+  top: 5px;
+  left: 255px;
+  width: 76%;
+  /* width: 825px; */
+}
+.circlu {
+  position: absolute;
+  border-radius: 689.503px;
+  background: rgba(49, 0, 255, 0.13);
+  filter: blur(120px);
+  width: 689.503px;
+  height: 519px;
+}
+
+.waletbtn {
+  width: 314px;
+  height: 60px;
+  padding: 18px 66px 17px 61px;
+  border-radius: 37px;
+  border: none;
+  background-image: linear-gradient(to right, #2db3fe, #9fddff);
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  cursor: pointer !important;
+}
+.some {
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 24px;
+  color: #0d1424;
+  text-transform: uppercase;
+}
+.poniter {
+  cursor: pointer !important;
+}
+
+.jojo {
+  padding: 0.5rem 1rem;
+  background-image: linear-gradient(90deg, #19171f, #130737),
+    linear-gradient(90deg, hsl(289, 65%, 64%), hsl(226, 78%, 67%));
+  background-clip: padding-box, border-box;
+  background-origin: border-box;
+  border: 1px solid transparent;
+}
+
+.lim {
+
+  background-color: linear-gradient(to right, red, yellow);
+}
+
+@media screen and (max-width: 365px) {
+  .waletbtn {
+    width: 100% !important;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .some {
+    font-family: IBM Plex Sans JP;
+    padding: 0;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 366px) and (max-width: 600px) {
+  .waletbtn {
+    width: 100% !important;
+    font-size: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .some {
+    font-family: IBM Plex Sans JP;
+    padding: 0;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .box_ref h1 {
+    color: var(--white, #fff);
+    text-align: center;
+    /* font-family: Murecho; */
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 116%;
+    letter-spacing: 0.48px;
+  }
+  .box_ref {
+    height: 325px;
+  }
+}
+
+@media (min-width: 951px) and (max-width: 7000px) {
+  .mask {
+    width: 100%;
+    height: 100%;
+  }
+
+  .Mask_tab,
+  .Mask_mob {
+    display: none;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 950px) {
+  .Mask_tab {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mask,
+  .Mask_mob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .Mask_tab {
+    display: none;
+  }
+
+  .mask {
+    display: none;
+  }
+
+  .Mask_mob {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.box_ref {
+  overflow: hidden;
+}
+
+@media (min-width: 700px) and (max-width: 1025px) {
+  .lie {
+    position: absolute;
+    left: 155px;
+    top: 0px;
+    width: 97%;
+  }
+  .lia {
+    position: absolute;
+    /* top: 55px; */
+    left: 295px;
+    /* right: 100px; */
+    width: 57%;
+
+    /* width: 825px; */
+  }
+}
+
+@media (min-width: 400px) and (max-width: 770px) {
+  .lia {
+    position: absolute;
+    /* top: 55px; */
+    height: 340px;
+    left: 295px;
+    /* right: 100px; */
+    width: 280px;
+    /* width: 825px; */
+  }
+  .lie {
+    position: absolute;
+    left: 155px;
+    /* top: 50px; */
+    width: 510px;
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .lin {
+    display: none;
+  }
+
+  .lie {
+    position: absolute;
+    /* top: 40px; */
+    left: 0px;
+    /* right: 100px; */
+    width: 335px;
+    /* height: 100px; */
+  }
+
+  .lia {
+    position: absolute;
+    height: 300px;
+    /* right: 100px; */
+    left: 0px;
+    width: 273px;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 400px) {
+  .lin {
+    display: none;
+  }
+
+  .lie {
+    position: absolute;
+    /* top: 40px; */
+    left: 0px;
+    /* right: 100px; */
+    width: 400px;
+    /* height: 100px; */
+  }
+
+  .lia {
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    width: 330px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  .lin {
+    display: none;
+  }
+
+  .lie {
+    position: absolute;
+    left: 0px;
+    width: 459px;
+  }
+
+  .lia {
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    width: 380px;
+  }
+}
+
+/* @media (min-width:321px )and (max-width:430px) {
+
+  .lin {
+  display: none;
+  }
+
+  .lie {
+    position: absolute;
+    left: 0px;
+    width: 459px;
+  }
+
+  .lia {
+    position: absolute;
+    height: 300px;
+    left: 0px;
+    width: 380px;
+  }
+
+
+}  */
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .lin {
+    position: absolute;
+    left: 0px;
+    top: 1px;
+  }
+  .lie {
+    position: absolute;
+    left: 155px;
+    top: 0px;
+    width: 99%;
+  }
+
+  .lia {
+    position: absolute;
+    top: 2px;
+    left: 220px;
+    width: 76%;
+    /* width: 825px; */
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 3000px) {
+  .lie {
+    position: absolute !important ;
+    left: 43rem !important;
+    top: 0px !important ;
+    width: 48% !important;
+  }
+
+  .lia {
+    position: absolute !important;
+    top: 5px !important;
+    left: 255px !important;
+    width: 87% !important;
+    height: 471px !important;
+  }
+
+  .lin {
+    position: absolute !important;
+    left: 24px !important;
+    top: 0px !important;
+    width: 47% !important;
+  }
+}
+
+.reward_but{
+  z-index: 1 !important;
+}
