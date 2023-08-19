@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  /* font-family: 'Comfortaa', cursive; */
+font-family: 'Murecho', sans-serif;
+font-weight: 900;
+/* font-family: 'Roboto', sans-serif; */
+/* font-family: 'Syne', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  /* font-family: Murecho !important; */
+}
