@@ -1,0 +1,651 @@
+.rwd_back {
+  background-image: url(../Assets/QBQuest.png);
+  /* background-position: cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* z-index: -1; */
+  background-color: #130732;
+}
+
+@media (min-width: 650px) and (max-width: 950px) {
+  .main_titleLayer{
+    padding-right: 70px;
+  }
+}
+
+.main_titleLayer {
+  /* font-family: "Murecho"; */
+  font-size: 65px !important;
+  font-style: normal;
+  font-weight: bolder;
+  font-weight: 900;
+  line-height: 116.5%; /* 67.57px */
+  letter-spacing: 1.16px;
+  margin-bottom: 0px;
+  text-align: start;
+  margin-top: 80px;
+  background: linear-gradient(133deg, #fff 0%, #b8dfff 51.04%, #ffd8fb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  /* color: #fff; */
+  background: linear-gradient(133deg, #FFF 0%, #B8DFFF 51.04%, #FFD8FB 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+  text-align: start;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: "Murecho", sans-serif;
+}
+
+.jp_nnn{
+  display: none !important;
+}
+
+.title_upper {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; */
+  /* padding-left: 80px; */
+}
+
+.earn_btn{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.reward_but {
+  color: white !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  background: var(
+    --gradient-1,
+    linear-gradient(119deg, #8217f4 19.01%, #00d1ff 100%)
+  );
+  height: 60px;
+  width: 255px;
+  border: none;
+  font-family: "Murecho", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.walletReward {
+  font-size: 20px;
+}
+
+/* -------------------------exclusive style -------------------- */
+
+.exclusivemainUpper {
+  margin-top: 249px;
+}
+
+.exclusive_titleupper {
+  padding: 105px 0px;
+}
+
+.exclusive_title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116%; /* 55.68px */
+  letter-spacing: 0.96px;
+  color: #fff;
+  /* font-family: "Murecho", sans-serif; */
+}
+
+/* @media (min-width: 1100px) and (max-width: 1433px) {
+  .exclusive_title{
+    font-size: 39px;
+  }
+} */
+
+.exclu_subtitle {
+  font-family: "Murecho", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.rk2 {
+  display: none;
+}
+.rk3 {
+  display: none;
+}
+
+.frPad {
+  padding-top: 5rem;
+  /* height: 100vh; */
+}
+
+.mobile_prt {
+  background-color: #130732;
+}
+
+.forNon {
+  display: none;
+}
+
+.gradf {
+  border-radius: 587px;
+  background: rgba(242, 0, 220, 0.21);
+  filter: blur(120px);
+  width: 500px;
+  height: 356px;
+  flex-shrink: 0;
+  position: absolute;
+  left: -1rem;
+  top: -6px;
+}
+.gradf2 {
+  border-radius: 576px;
+  background: rgba(49, 0, 255, 0.13);
+  filter: blur(120px);
+  width: 500px;
+  height: 356px;
+  flex-shrink: 0;
+  position: absolute;
+  right: 2rem;
+  top: -6px;
+}
+
+.main_titleLayer, .subtitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sldRmaiN {
+  position: relative;
+}
+
+.guildmob{
+  display: none !important;
+}
+
+.hxnone{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .engref{
+    display: none;
+  }
+
+  .hxnone{
+    display: block;
+  }
+  .gradf {
+    border-radius: 587px;
+    background: rgba(242, 0, 220, 0.21);
+    filter: blur(120px);
+    width: 465px;
+    height: 419px;
+    flex-shrink: 0;
+    position: absolute;
+    left: -17rem;
+    top: -7rem;
+  }
+
+  .refVala{
+    display: none;
+  }
+
+  .guildmob{
+    display: block;
+  }
+
+  .moblBackpurp {
+    position: relative;
+  }
+
+  .slDPicSty {
+    width: 100%;
+  }
+
+  .forNon {
+    display: block;
+  }
+
+  .exclusivemainUpper {
+    margin-top: 0px;
+    /* filter: blur(120px); */
+    /* position: absolute; */
+  }
+  .mobile_prt{
+    background: rgb(19,7,50);
+  background: linear-gradient(180deg, rgba(19,7,50,1) 0%, rgba(25,8,54,1) 90%);
+
+  }
+
+  .exclusive_titleupper{
+    padding: 100px 0;
+  }
+  
+  /* .exclusive_titleupper{
+    position: relative;
+  } */
+  /* .rec {
+    display: none;
+  } */
+
+  /* .frPad {
+    padding-bottom: 27rem;
+  } */
+
+  .rwd_back {
+    background-image: url(../Assets/QBQuestmob.png);
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    background-size: cover;
+  }
+
+  .NavUpperMain{
+    height: 75px;
+    padding: 0;
+  }
+
+  .title_upper {
+    margin-top: 12px;
+    margin-bottom: 60px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .reward_but {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hod {
+    display: none;
+  }
+
+  .rk4 {
+    display: none;
+  }
+
+  .frPad{
+    height: 100%;
+  }
+
+  .exclu_subtitle{
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .exclusive_title{
+    font-size: 30px;
+  }
+
+  .exclu_subtitle {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 8000px) {
+  .mob_res{
+    display: none;
+  }
+}
+
+@media (min-width: 351px) and (max-width: 600px) {
+  .exclusive_title {
+    font-size: 34px;
+  }
+
+  .exclu_subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 600px) {
+  .reward_but{
+    width: 345px;
+  }
+}
+
+@media (min-width: 382px) and (max-width: 395px) {
+  .exclusive_title{
+    padding: 8px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+  .gradf {
+    border-radius: 587px;
+    background: rgba(242, 0, 220, 0.21);
+    filter: blur(120px);
+    width: 361px;
+    height: 326px;
+    flex-shrink: 0;
+    position: absolute;
+    left: -7rem;
+    top: -6rem;
+  }
+
+  .refVala{
+    display: none;
+  }
+
+  .guildmob{
+    display: block;
+  }
+
+  .gradf2 {
+    display: none;
+  }
+
+  .rk3 {
+    display: block;
+  }
+  .rk4 {
+    display: none;
+  }
+
+  /* .frPad {
+    padding-top: 0rem;
+    padding-top: 100px;
+  } */
+
+  .rwd_back {
+    /* background-image: url(../Assets/tab_bgrwaer.png); */
+    /* background-position: inherit; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* .reward_but {
+    width: 50%;
+  } */
+
+  .title_upper {
+    margin-top: 12px;
+    margin-bottom: 60px;
+    margin-left: 35px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center !important;
+  }
+
+  .exclusivemainUpper {
+    margin-top: 0px;
+  }
+
+  .sldr_colorTab {
+    background-color: #130732;
+  }
+
+  .exclusive_titleupper {
+    padding-bottom: 47px !important;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 820px) {
+  .rk4 {
+    display: none;
+  }
+
+  .gradf {
+    border-radius: 587px;
+    background: rgba(242, 0, 220, 0.21);
+    filter: blur(120px);
+    width: 361px;
+    height: 326px;
+    flex-shrink: 0;
+    position: absolute;
+    left: -7rem;
+    top: -6rem;
+  }
+
+  .gradf2 {
+    display: none;
+  }
+
+  .rk3 {
+    display: block;
+  }
+
+  .refVala{
+    display: none;
+  }
+
+  .guildmob{
+    display: block;
+  }
+
+  /* .frPad {
+    padding-top: 0rem;
+    padding-top: 100px;
+  } */
+
+  /* .rwd_back {
+    background-image: url(../Assets/tab_bgrwaer.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: 100% 72%;
+  } */
+
+  /* .reward_but {
+    width: 50%;
+  } */
+
+  .title_upper {
+    margin-top: 12px;
+    margin-bottom: 60px;
+    margin-left: 35px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center !important;
+  }
+}
+
+
+
+@media (min-width: 1100px) and (max-width: 55000px) {
+  
+  .hxnbr{
+    display: none;
+  }
+}
+
+
+@media (min-width: 821px) and (max-width: 991px) {
+  /* .rwd_back {
+    background-image: url(../Assets/tab_bgrwaer.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } */
+
+  .refVala{
+    display: none;
+  }
+
+  .guildmob{
+    display: block;
+  }
+
+  .title_upper {
+    margin-top: 12px;
+    margin-bottom: 60px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: center !important;
+  }
+  .titles_upprLayyer {
+    margin-left: 10px;
+    margin-top: 129px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .rk3 {
+    display: none;
+  }
+  .rk4 {
+    display: none;
+  }
+  .exclusive_titleupper {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .refVala{
+    display: none;
+  }
+
+  .exclu_subtitle {
+    width: 695px;
+  }
+  .main_titleLayer {
+    font-size: 56px !important;
+  }
+  .title_upper {
+    margin-left: 50px;
+    margin-top: 36px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  /* .exclusivemainUpper {
+    margin-top: 185px;
+  } */
+
+  /* .larglaptb {
+    padding-top: 3rem;
+  } */
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .title_upper {
+    margin-top: 179px;
+  }
+
+  .exclusivemainUpper {
+    margin-top: 12rem;
+  }
+
+  .larglaptb {
+    padding-top: 5rem;
+  }
+}
+
+@media (min-width: 2561px) and (max-width: 2773px) {
+  .title_upper {
+    margin-top: 84px;
+  }
+
+  .exclusivemainUpper {
+    margin-top: 9rem;
+  }
+
+  .larglaptb {
+    padding-top: 5rem;
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  .rk {
+    display: none;
+  }
+} */
+
+@media screen and (max-width: 320px) {
+  .main_titleLayer {
+    font-size: 31px !important;
+    font-weight: 900 !important;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 600px) {
+  .main_titleLayer {
+    font-size: 28px !important;
+    font-weight: 900 !important;
+    padding: 0 19px;
+  }
+}
+
+@media (min-width: 381px) and (max-width: 600px) {
+  .main_titleLayer {
+    font-size: 35px !important;
+    font-weight: 900 !important;
+    padding: 0 11px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 600px) {
+  .main_titleLayer {
+    font-size: 39px !important;
+    font-weight: 900 !important;
+    padding: 0 21px;
+  }
+}
+
+
+@media (min-width: 551px) and (max-width: 950px) {
+  .main_titleLayer {
+    font-size: 49px !important;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 4500px) {
+  .slDPicSty {
+    width: auto !important;
+  }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: none;
+}
+
+@media (min-width: 1800px) and (max-width: 60000px) {
+  .rwd_back{
+    background-size: cover;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 5000px) {
+  .exclusivemainUpper {
+    margin-top: 30rem;
+}
+
+.title_upper {
+  margin-top: 308px;
+}
+}
