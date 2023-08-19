@@ -1,0 +1,222 @@
+.main_how_work {
+  padding: 77px 10px 0 10px;
+  background-color: #130732;
+}
+
+.work_content {
+  background-image: url(../Assets/how_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px;
+  /* background-size: 100%; */
+  /* padding: 40px 0px 0px 0px; */
+  /* height: 897px; */
+}
+
+.work_contentt {
+  background-image: url(../Assets/how_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 20px 0;
+}
+
+.bko {
+  /* margin-top: 28px !important; */
+}
+
+.work_contentt h1 {
+  color: white;
+}
+.work_content h1 {
+  color: white !important;
+}
+
+.work_content_h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  line-height: 116%; /* 55.68px */
+  letter-spacing: 0.96px;
+  font-size: 48px;
+  padding-bottom: 26px;
+}
+
+.main_content_box h1 {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116%; /* 39.44px */
+  letter-spacing: 0.68px;
+  transform: rotate(-90deg);
+}
+
+.left_bor_content {
+  border-left: 1px solid;
+  border-image: linear-gradient(119deg, #8217f4 19.01%, #00d1ff 100%) 1;
+  padding: 0px 0px 10px 30px;
+  text-align: left;
+  margin-bottom: 30px;
+
+  /* height: 124px ; */
+}
+
+.connect_wallet_hw {
+  width: 255px;
+  height: 60px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  border-radius: 32px;
+  background: var(
+    --gradient-1,
+    linear-gradient(119deg, #8217f4 19.01%, #00d1ff 100%)
+  );
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none !important;
+  border: none !important;
+  margin-top: 3rem;
+}
+
+.main_content_box {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+.left_bor_content h4 {
+  color: #fff;
+  text-align: left;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116%;
+  letter-spacing: 0.56px;
+}
+
+.left_bor_content p {
+  font-size: 16px;
+  font-style: normal;
+  text-align: left;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  letter-spacing: 0.16px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.left_bor_content h5 {
+  font-size: 16px !important  ;
+  font-style: normal;
+  margin-bottom: 25px !important;
+  font-weight: 600;
+  color: white;
+  line-height: 116%; /* 25.52px */
+  letter-spacing: 0.44px;
+}
+
+.dis_btn {
+  width: 190px;
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+  background: rgba(255, 255, 255, 0.06) !important;
+  backdrop-filter: blur(10px) !important;
+  font-size: 18px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  padding-left: 24px !important;
+}
+
+.conecctedWalte {
+  border-radius: 32px;
+  background: rgba(255, 255, 255, 0.11);
+  width: 255px;
+  height: 60px;
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  display: flex;
+  border-radius: 32px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: 0.14px;
+  text-transform: uppercase;
+  color: #fff;
+  outline: none !important;
+  border: none !important;
+  margin-top: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .conecctedWalte {
+    width: 100%;
+  }
+  .connect_wallet_hw {
+    width: 100% !important;
+  }
+  .left_bor_content {
+    padding-left: 18px !important;
+  }
+  .left_bor_content h4 {
+    font-size: 24px !important;
+  }
+  .left_bor_content p {
+    font-size: 14px !important;
+  }
+  .mb_mb {
+    margin-bottom: 1rem !important;
+  }
+  .left_bor_content h5 {
+    font-size: 18px !important;
+  }
+  .dis_btn {
+    width: 100% !important;
+  }
+
+  .work_content_h1 {
+    font-size: 36px !important;
+  }
+
+  .work_content {
+    padding: 40px 0;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 992px) {
+  .dis_btn {
+    width: 289px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  .connect_wallet_hw {
+    margin-top: 21px;
+  }
+
+  .conecctedWalte {
+    margin-top: 21px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 9000px) {
+  .dis_btn {
+    width: 250px !important;
+    height: 60px !important;
+  }
+}
